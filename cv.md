@@ -1,6 +1,6 @@
 # **PIOTR BAUSIUK**
 ![This me](/DSC_0242.JPG)
-## **RS School student. JS/Frontend course-development. Stage#1**
+## **RS School student. JavaScript/Front-end. Stage0**
 ****
 
 ## **Contact information:**
@@ -10,9 +10,7 @@
 - ***GitHub:*** PitLion
 
 ## **Briefly About Myself:**
-I have been researching documents and writing for many years. I'm doing my job pretty well, but I want to develop further and gain new knowledge, because it's cool!:+1:
-I am reliable, responsible and purposeful.
-My slogan is:
+For many years I have been working as an expert in the study of manuscripts and documents. I'm doing a good job, but I want to develop further and gain new knowledge, because it's cool!:+1: I am reliable, responsible and purposeful. My slogan is this:
 > Do what you like, explore the world and go to your dream!
 
 ## **Skills and Proficiency:**
@@ -44,7 +42,7 @@ function score(a, b) {
 ## **Courses and books:**
 **Courses:**
 - RS Schools Course ***JS/FE Pre-School 2022Q2***
-- RS Schools Course ***JavaScript/Front-end 2022Q3*** (in progress)
+- RS Schools Course ***JavaScript/Front-end 2022Q3*** (not finished)
 
 **Books**
 1. *Eric Freeman, Elisabeth Robson  Head First HTML and CSS*
