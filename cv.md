@@ -1,5 +1,5 @@
 # **PIOTR BAUSIUK**
-![This me](/DSC_0242.JPG)
+![This me](/assets/DSC_0242.JPG)
 ## **RS School student. JavaScript/Front-end. Stage0**
 ****
 
