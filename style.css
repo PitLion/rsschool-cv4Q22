@@ -13,9 +13,9 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
-	font-size: 18px;
     font-weight: 400;
+	font-size: 18px;
+    font-family: 'Lato', sans-serif;
     line-height: 1.5;
     /*color: #2b1919;*/
 }
@@ -58,9 +58,9 @@ body {
 }
 
 ul {
-    list-style-type: none;
     padding-top: 10px;
     margin: 0;
+    list-style-type: none;
 }
 
 .nav-list {
@@ -76,10 +76,10 @@ ul {
 }
 
 a {
-	font-size: 14px;
-	text-decoration: none;
 	margin-right: 5px;
 	font-weight: 700;
+	font-size: 14px;
+	text-decoration: none;
 	transition: all 0.4s;
 }
 
@@ -90,8 +90,8 @@ a {
 
 h1 {
     margin-bottom: 0;
-    font-size: 44px;
     font-weight: 700;
+    font-size: 44px;
 	text-align: center;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -100,9 +100,9 @@ h1 {
 
 p.contact-card {
     margin-top: 0;
-    text-align: center;
     font-style: italic;
     font-weight: 400;
+    text-align: center;
     color: white;
 }
 
@@ -119,15 +119,15 @@ p.contact-card {
 }
 
 .contact-items {
+    font-style: italic;
     letter-spacing: 2px;
     line-height: 1.7;
-    font-style: italic;
 }
 
 span {
-    font-size: 20px;
-    font-weight: 700;
     font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .top-heading {
@@ -141,8 +141,8 @@ span {
     max-width: 1140px;
     margin: 0 auto 0 auto;
     padding: 0 20px 0 60px;
-    background-color: rgb(238, 234, 234);
     color: rgb(23, 0, 66);
+    background-color: rgb(238, 234, 234);
 }
 
 .left {
@@ -163,9 +163,9 @@ span {
 }
 
 .slogan {
-    font-weight: 700;
-    font-style: italic;
     margin-top: 0;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .about-me p {
@@ -183,11 +183,11 @@ span {
 
 .experience-link {
     border: 1px darkmagenta dotted;
-    font-size: 18px;
-	text-decoration: none;
 	font-weight: 700;
+    font-size: 18px;
     letter-spacing: 3px;
     color: rgb(1, 109, 64);
+	text-decoration: none;
 	transition: all 0.4s;
 }
 
