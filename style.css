@@ -1,0 +1,291 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+	font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    /*color: #2b1919;*/
+}
+
+/*img {
+    width: 100%;
+    height: auto;
+}*/
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.top {
+    min-height: 600px;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(238, 234, 234);
+}
+
+.bottom {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(23, 0, 66);
+}
+
+.header {
+    max-width: 1140px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: rgb(23, 0, 66);
+}
+
+.nav {
+    min-height: 75px;
+    margin-top: 0;
+    background-color: rgb(238, 234, 234);
+}
+
+ul {
+    padding-top: 10px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 50px;
+    margin-top: 0;
+}
+
+.nav-link {
+    color: rgb(23, 0, 66);
+}
+
+a {
+	margin-right: 5px;
+	font-weight: 700;
+	font-size: 14px;
+	text-decoration: none;
+	transition: all 0.4s;
+}
+
+.nav-link:hover {
+    color: rgb(255, 0, 128);
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 44px;
+	text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #ffffff;
+}
+
+p.contact-card {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-right: 100px;
+    color: white;
+}
+
+.image,
+.image img {
+    border-radius: 10px;
+}
+
+.contact-items {
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1.7;
+}
+
+span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.top-heading {
+    font-size: 34px;
+    letter-spacing: 7px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px 0 60px;
+    color: rgb(23, 0, 66);
+    background-color: rgb(238, 234, 234);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 5%;
+    padding: 20px 30px 140px 20px;
+    background-color: rgb(23, 0, 66, 0.1);
+}
+
+.bottom-heading {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+.slogan {
+    margin-top: 0;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.about-me p {
+    margin-bottom: 10px;
+}
+
+.skill-list,
+.lang-list {
+    list-style: circle outside;
+}
+
+.experience-item {
+    margin-bottom: 5px;
+}
+
+.experience-link {
+    border: 1px darkmagenta dotted;
+	font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: rgb(1, 109, 64);
+	text-decoration: none;
+	transition: all 0.4s;
+}
+
+.experience-link:hover {
+    color: rgb(255, 0, 128);
+    text-decoration: underline;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    padding: 20px 0 20px 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.course-list,
+.books-list {
+    list-style: square outside;
+}
+
+.code {
+    border: 3px solid rgb(165, 165, 219, 0.7);
+    padding-left: 10px;
+}
+
+
+
+.footer {
+    max-width: 1140px;
+    min-height: 65px;
+    margin: 0 auto;
+    background-color: rgb(23, 0, 66);
+}
+
+.footer-list {
+    display: flex;
+	justify-content: space-around;
+	padding: 15px 5px;
+    color: white;
+}
+
+.time {
+    margin-top: 15px;
+}
+
+.footer-item:hover {
+    transform: scale(1.1, 1.1 );
+}
+
+@media screen and (max-width: 840px) {
+    .main {
+        padding: 0 20px 0 0;
+    }
+
+    .left {
+        width: 34%;
+        margin-right: 1%;
+        padding: 20px 10px 140px 10px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 15px;
+    }
+
+    .contact {
+        padding-left: 10px;
+    }
+
+    .contact > .top-heading {
+        margin: 0;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .right {
+        order: -1;
+        width: 100%;
+    }
+
+    .left {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
